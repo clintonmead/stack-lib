@@ -5,15 +5,9 @@ license:             BSD3
 author:              "Clinton Mead"
 maintainer:          "clintonmead@gmail.com"
 copyright:           "Copyright: (c) 2017 Clinton Mead"
-
-
-# Metadata used when publishing your package
 synopsis:            Wrapper to use stack as a library
 category:            Development
 
-# To avoid duplicated efforts in documentation and dealing with the
-# complications of embedding Haddock markup inside cabal files, it is
-# common to point users to the README.md file.
 description:
   Some wrapper functions around [stack](https://hackage.haskell.org/package/stack) intended to
   make it easier to use [stack](https://hackage.haskell.org/package/stack) as a library.
@@ -28,3 +22,4 @@ dependencies:
 
 library:
   source-dirs: src
+  ghc-options: -Wall
